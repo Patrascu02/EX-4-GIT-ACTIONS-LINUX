@@ -34,4 +34,4 @@ jobs:
       - name: Release
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        run: gh release create ${{ github.ref_name }} aplicatie.zip --title "Release ${{ github.ref_name }}" --notes "Versiune automata"
+        run: gh release create ${{ github.ref_name }} aplicatie.zip --title "Release ${{ github.ref_name }}" --notes "Versiune automata-2"
