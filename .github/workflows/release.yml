@@ -16,11 +16,10 @@ jobs:
       - name: Checkout 
         uses: actions/checkout@v4
         
-      - name: setup + cache
+      - name: setup
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
-          cache: 'pip'
       
       - name: security step
         env:
